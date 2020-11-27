@@ -1,0 +1,18 @@
+<html>
+<head>
+<title>Arrays!!!</title>
+<script type="text/javascript">
+    var sum=0;
+var students = new Array(1,2,3,4,5,6,7,8,9,10);
+Array.prototype.displayItems=function(){
+for (i=0;i<10;i++){
+    sum=sum+this[i];
+}
+document.write(sum/10);
+}
+students.displayItems();
+</script>
+</head>
+<body>
+</body>
+</html>
